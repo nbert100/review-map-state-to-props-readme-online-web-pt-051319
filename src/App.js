@@ -32,7 +32,7 @@ class App extends Component {
     );
   }
 }
-
+//this method is executed with each change to the store's state
 const mapStateToProps = (state) => {
   debugger;
   return { items: state.items }
